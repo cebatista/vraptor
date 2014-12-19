@@ -13,6 +13,18 @@
 	</properties>
 
 	<dependencies>
+	
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.34</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>br.com.caelum.vraptor</groupId>
+		    <artifactId>vraptor-hibernate</artifactId>
+		    <version>4.0.2</version> <!-- or the latest version -->
+		</dependency>
 
 		<dependency>
 			<groupId>br.com.caelum</groupId>
