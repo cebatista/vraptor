@@ -4,9 +4,9 @@
 		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="hibernate.connection.username">analista</property>
-    <property name="hibernate.connection.password">analista123</property>
-    <property name="hibernate.connection.url">jdbc:mysql://192.168.1.18:3306/victorysolutions</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">senha</property>
+    <property name="hibernate.connection.url">jdbc:mysql://192.168.1.18:3306/project</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
     
