@@ -16,6 +16,6 @@ public class PrimeiroController {
 
     @Get("/home")
     public void home() {
-        result.include("mensagem", "Ol·, VRaptor 4!");
+        result.include("mensagem", "Ol√°, VRaptor 4!");
     }
 }
